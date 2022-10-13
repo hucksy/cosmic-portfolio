@@ -13,7 +13,7 @@ An adventure into my ineptitude
    1. Code portfolio: a page with links to all my hackiest hacks
    2. Documenting the struggle of learning stuff
    3. Writings: section for random ramblings etc
-   4. Hobby stuff: house projects, keyboard build, bike stuff
+   4. Hobby stuff: house projects, keyboard build, bike stuff, random projects
    5. Favorite things: a collection of my favorite things from the web
         - soundscapes
         - music
