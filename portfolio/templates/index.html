@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>cosmic patterns</title>
+  <meta name="hucks portfolio" content="random stuff I do" />
+  <meta name="keywords" content="nonsense" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link href="{{ url_for('main_bp.static', filename='css/style.css')}}" title="style" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">cosmic patterns</span></a></h1>
+          <h2>ramblings of nonsense</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Code Portfolio</a></li>
+          <li><a href="writings.html">Writings</a></li>
+          <li><a href="favstuff.html">Stuff I like</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://github.com/hucksy">My github</a></li>
+          <li><a href="https://www.linkedin.com/in/matthew-krenitsky/">My linkedin</a></li>
+        </ul>
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Time and space to think and make</h1>
+        <p>This is a wee little speck in the fabric where I add a little bit of the life colors from my mind's meadow</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
